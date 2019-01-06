@@ -148,7 +148,7 @@ function show10(){
 function disappear10(){
 	vis10.style("display", "none")
 }
-	if(windowTop >= (front1+400) && windowTop < front2 && section[0]==0){			
+	if(windowTop >= (front1+0) && windowTop < front2 && section[0]==0){			
 		main0();
 		changeSection(0)
 //		show11();
@@ -172,19 +172,19 @@ function disappear10(){
 		disappear18();
 	}
 
-	if(windowTop >= (front2+400) && windowTop < front3 && section[1]==0){
+	if(windowTop >= (front2+0) && windowTop < front3 && section[1]==0){
 		main1();
 		changeSection(1)
 
 	}
 
-	if(windowTop >= (front3+400) && windowTop < front4 && section[2]==0){
+	if(windowTop >= (front3+0) && windowTop < front4 && section[2]==0){
 		main2();
 		changeSection(2)
 
 	}
 
-	if(windowTop >= (front4+400) && windowTop < front5 && section[3]==0){
+	if(windowTop >= (front4+0) && windowTop < front5 && section[3]==0){
 
 	    main3();
 		changeSection(3)
@@ -209,7 +209,7 @@ function disappear10(){
 
 	}
 	
-    if(windowTop >= (front5+400) && windowTop < front6 && section[4]==0){
+    if(windowTop >= (front5+0) && windowTop < front6 && section[4]==0){
 		
 		main4();
 		changeSection(4)
@@ -235,7 +235,7 @@ function disappear10(){
 
 	}
 	
-	if(windowTop >= (front6+400) && windowTop < front7 && section[5]==0){
+	if(windowTop >= (front6+0) && windowTop < front7 && section[5]==0){
 		
 		main5();
 		changeSection(5)
@@ -261,7 +261,7 @@ function disappear10(){
 		
 	}
 
-	if(windowTop >= (front7+400) && windowTop < front8 && section[6]==0){
+	if(windowTop >= (front7+0) && windowTop < front8 && section[6]==0){
 		main6();
 		changeSection(6)
 		
@@ -287,7 +287,7 @@ function disappear10(){
 		disappear16();
 	}
 	
-	if(windowTop >= (front8+400) && windowTop < front9 && section[7]==0){
+	if(windowTop >= (front8+0) && windowTop < front9 && section[7]==0){
 		main7();
 		changeSection(7)
         show1();
@@ -337,7 +337,7 @@ function disappear10(){
 //		disappear12();
 	}
 	
-	if(windowTop >= (front10+400) && windowTop < front11 && section[9]==0){
+	if(windowTop >= (front10+0) && windowTop < front11 && section[9]==0){
 		main9();
 		changeSection(9)
 		show8();
@@ -363,7 +363,7 @@ function disappear10(){
 
 	}
 	
-	if(windowTop >= (front11+400) && windowTop < front12 && section[10]==0){
+	if(windowTop >= (front11+0) && windowTop < front12 && section[10]==0){
 		main10();
 		changeSection(10)
 		disappear1();
@@ -386,7 +386,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= (front12+400) && windowTop < front13 && section[11]==0){
+	if(windowTop >= (front12+0) && windowTop < front13 && section[11]==0){
 		main11();
 		changeSection(11)
 		show4();
@@ -411,7 +411,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= front13 && windowTop < front14 && section[12]==0){
+	if(windowTop >= (front13+0) && windowTop < front14 && section[12]==0){
 		main12();
 		changeSection(12)
 		show4();
@@ -436,7 +436,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= front14 && windowTop < front15 && section[13]==0){
+	if(windowTop >= (front14+0) && windowTop < front15 && section[13]==0){
 		main13();
 		changeSection(13)
 //		show11();
@@ -461,7 +461,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= front15 && windowTop < front16 && section[14]==0){
+	if(windowTop >= (front15+0) && windowTop < front16 && section[14]==0){
 		main14();
 		changeSection(14)
 		show7();
@@ -485,7 +485,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= (front16+400) && windowTop < front17 && section[15]==0){
+	if(windowTop >= (front16+0) && windowTop < front17 && section[15]==0){
 		main15();
 		changeSection(15)
 		show7();
@@ -509,7 +509,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= (front17+400) && windowTop < front18 && section[16]==0){
+	if(windowTop >= (front17+0) && windowTop < front18 && section[16]==0){
 		main16();
 		changeSection(16)
 		
@@ -535,7 +535,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= (front18+400) && windowTop < front19 && section[17]==0){
+	if(windowTop >= (front18+0) && windowTop < front19 && section[17]==0){
 		main17();
 		changeSection(17)
 		show7();
@@ -560,7 +560,7 @@ function disappear10(){
 		disappear18();
 	}
 	
-	if(windowTop >= front19 && windowTop < front20 && section[18]==0){
+	if(windowTop >= (front19+0) && windowTop < front20 && section[18]==0){
 		main18();
 		changeSection(18)
 		show10();
@@ -584,7 +584,7 @@ function disappear10(){
 //		disappear10();
 	}
 	
-	if(windowTop >= (front20+400) && windowTop < front21 && section[19]==0){
+	if(windowTop >= (front20+0) && windowTop < front21 && section[19]==0){
 		main19();
 		changeSection(19)
 		show15();
